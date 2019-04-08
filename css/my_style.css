@@ -1,0 +1,288 @@
+body{
+    background-color: #e5edf1
+}
+body > header{
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom: #cedce6 1px solid;
+    height: 75px
+}
+body > header .sigle, 
+body > header .nav_bar{
+    display: inline-block;
+}
+body > header .sigle{
+    margin-right: 40px
+}
+body > header .sigle img{
+    width: 150px;
+    height: 45px
+}
+body > header .nav_bar .nav_bar_item{
+    display: inline-block;
+    cursor: pointer;
+}
+body > header .nav_bar .nav_bar_item > div{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+body > header .nav_bar .nav_bar_item > div:hover{
+    background-color: #dce4e9
+}
+body > header .nav_bar .nav_bar_item a:hover{
+    text-decoration: none
+}
+body > header .nav_bar .nav_bar_item .label{
+    color: #363636;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold
+}
+body > header .icons_nav{
+    padding: 0px;
+    list-style: none
+}
+body > header .icons_nav li{
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+body > header .icons_nav li:hover{
+    background-color: #dce4e9
+}
+body > header .icons_nav li .icon{
+    width: 22px;
+    height: 22px
+}
+.article_grand_plant{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.article_grand_plant .tiltle{
+    color: #363636;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold
+}
+.article_grand_plant .categorie_label{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.article_grand_plant .image{
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin: auto
+}
+.article_grand_plant input{
+    color: #363636;
+    font-weight: bold;
+    background-color: #fdde90;
+    width: 150px;
+    height: 50px
+}
+.liste_view_article_one{
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-top: 50px
+}
+.liste_view_article_one .item{
+    width: 250px;
+    background-color: white;
+    border: #d8e2e8 2px solid;
+    border-radius: 2px;
+    padding-bottom: 5px
+}
+.liste_view_article_one .item > div{
+    position: relative;
+}
+.liste_view_article_one .item .status{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    z-index: 2000;
+}
+.liste_view_article_one .item .links{
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 2000;
+}
+.liste_view_article_one .item .links img{
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+.liste_view_article_one .item section .image{
+    width: 100px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.liste_view_article_one .item section .categorie_label{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.liste_view_article_one .item section .tiltle{
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold
+}
+.liste_view_article_one .item section .prise{
+    color: yellowgreen;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.liste_view_article_one .item footer input{
+    width: 100%;
+    height: 40px;
+    background-color: #fdde90;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px
+}
+.liste_view_article_one > div > header{
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center
+}
+.liste_view_article_two .item{
+    width: 200px;
+}
+.liste_view_article_two .item section .image{
+    height: 120px
+}
+.index_footer{
+    padding: 50px
+}
+.index_footer .label{
+    color: #464647;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 35px
+}
+.index_footer .description{
+    color: #727173;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.index_footer .liste_info{
+    padding: 0px;
+    list-style: none
+}
+.index_footer .liste_info li{
+    display: block;
+    margin-bottom: 5px
+}
+.index_footer .liste_one li a{
+    color: #464647;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.index_footer .liste_two li a{
+    color: #727173;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.index_footer input{
+    margin-top: 10px
+}
+body > header .icons_nav .menu_icon{
+    display: none
+}
+@media(max-width: 900px){
+    body > header .icons_nav .menu_icon{
+        display: inline-block
+    }
+    body > header{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    body > header .sigle img{
+        margin-right: 0px;
+        width: 100px;
+        margin-top: 13px
+    }
+    body > header .icons_nav li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    body > header .nav_bar{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+        background-color: white;
+        width: 100%;
+        z-index: 5000;
+        display: none
+    }
+    .liste_view_article_one{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .liste_view_article_one .item{
+        margin: auto;
+        margin-bottom: 15px
+    }
+    .index_footer > div{
+        border-bottom: #949494 1px solid;
+        margin-bottom: 25px
+    }
+}
